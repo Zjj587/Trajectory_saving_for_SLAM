@@ -39,4 +39,4 @@ evo_traj tum test.txt -p
 ```
 ![trajectorysave](file:///home/zjj/%E5%9B%BE%E7%89%87/evo/tra-point-lio-1.png)
 ## 5.Acknowledgements
-Thanks to Point-LIO code authors. The major codes in this repository are borrowed from their efforts.
+Thanks to Point-LIO and evo code authors. The major codes in this repository are borrowed from their efforts.
