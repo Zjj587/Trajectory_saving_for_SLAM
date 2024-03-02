@@ -21,7 +21,7 @@ Clone the repository and catkin_make:
     source devel/setup.bash
 ```
 ## 4.Example
-To run Example, you need to install and configure [Point-LIO](https://github.com/hku-mars/Point-LIO) and [evo](https://github.com/MichaelGrupp/evo).And no need to change the code.
+To run Example, you need to install and configure [Point-LIO](https://github.com/hku-mars/Point-LIO) and [evo](https://github.com/MichaelGrupp/evo). And no need to change the code.
 ```
 # termianl 1: run Foint-LIO
 roslaunch point_lio mapping_avia.launch
