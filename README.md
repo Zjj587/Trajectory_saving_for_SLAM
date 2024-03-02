@@ -15,9 +15,10 @@ rosrun rqt_tf_tree rqt_tf_tree
 Clone the repository and catkin_make:
 ```
     cd ~/save_traj/src
-    git clone https://github.com/HKUST-Aerial-Robotics/A-LOAM.git
+    git clone https://github.com/Zjj587/Trajectory_saving_for_SLAM.git
     cd ../
     catkin_make
     source devel/setup.bash
 ```
-
+## 4.Example
+To run Example, you need to install and configure [POILIO] and 
