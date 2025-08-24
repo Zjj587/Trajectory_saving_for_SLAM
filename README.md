@@ -11,13 +11,19 @@ You can view the coordinate system of the current SLAM system through the follow
 ```
 rosrun rqt_tf_tree rqt_tf_tree
 ```
-## 3.Build
+
+```
+listener.waitForTransform("/camera_init", "/aft_mapped", ros::Time(0), ros::Duration(1));
+listener.lookupTransform("/camera_init", "/aft_mapped", ros::Time(0), transform);
+```
+
+## 3.Compile
 Clone the repository and catkin_make:
 ```
 git clone https://github.com/Zjj587/Trajectory_saving_for_SLAM.git
 cd Trajectory_saving_for_SLAM
 catkin_make
-source devel/setup.bash
+source devel/setup.bash && rosrun test_pkg save_traj_as_tum
 ```
 ## 4.Example
 To run Example, you need to install and configure [Point-LIO](https://github.com/hku-mars/Point-LIO) and [evo](https://github.com/MichaelGrupp/evo). And no need to change the code.
@@ -37,5 +43,3 @@ cd ~/save_traj
 evo_traj tum test.txt -p
 ```
 ![trajectorysave](https://github.com/Zjj587/Trajectory_saving_for_SLAM/blob/main/test_pkg/image/tra-point-lio-1.png)
-## 5.Acknowledgements
-Thanks to Point-LIO and evo code authors. The major codes in this repository are borrowed from their efforts.
