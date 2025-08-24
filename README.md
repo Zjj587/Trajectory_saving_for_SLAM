@@ -14,9 +14,8 @@ rosrun rqt_tf_tree rqt_tf_tree
 ## 3.Build
 Clone the repository and catkin_make:
 ```
-    cd ~/save_traj/src
     git clone https://github.com/Zjj587/Trajectory_saving_for_SLAM.git
-    cd ../
+    cd Trajectory_saving_for_SLAM
     catkin_make
     source devel/setup.bash
 ```
